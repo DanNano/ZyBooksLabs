@@ -86,7 +86,7 @@ int main()
 	}
 	else if (inputMonth == "September")
 	{
-		if ((inputDay >= 1) && (inputDay <= 31))
+		if ((inputDay >= 1) && (inputDay <= 30))
 		{
 			if ((inputDay >= 1) && (inputDay <= 21))
 				season = "Summer";
